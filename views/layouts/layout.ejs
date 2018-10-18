@@ -1,12 +1,41 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>New Sails App</title>
 
-    <!-- Viewport mobile tag for sensible mobile support -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- Meta -->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Title -->
+    <title>GALINA - REACH YOUR SATISFIATION</title>
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="img/favicon.png">
+    <link rel="apple-touch-icon" href="img/favicon_60x60.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon_76x76.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon_120x120.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon_152x152.png">
+
+    <!-- CSS Plugins -->
+    <link rel="stylesheet" href="plugins/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css" />
+    <link rel="stylesheet" href="plugins/animate.css/animate.min.css" />
+    <link rel="stylesheet" href="plugins/animsition/dist/css/animsition.min.css" />
+    <link rel="stylesheet" href="plugins/photoswipe/dist/photoswipe.css" />
+    <link rel="stylesheet" href="plugins/photoswipe/dist/default-skin/default-skin.css" />
+
+    <!-- CSS Icons -->
+    <link rel="stylesheet" href="css/themify-icons.css" />
+    <link rel="stylesheet" href="plugins/font-awesome/css/font-awesome.min.css" />
 
 
+    <!-- CSS Icons -->
+    <!-- <link rel="stylesheet" href="css/themify-icons.css" /> -->
+    <link rel="stylesheet" href="plugins/font-awesome/css/font-awesome.min.css" />
+
+    <!-- CSS Theme -->
+    <link id="theme" rel="stylesheet" href="css/themes/theme-blue.min.css" />
+    
     <!--
         Stylesheets and Preprocessors
         ==============================
@@ -29,79 +58,12 @@
     -->
 
     <!--STYLES-->
+    <link rel="stylesheet" href="/styles/importer.css">
     <!--STYLES END-->
   </head>
 
-  <body>
+  <body class="header-horizontal dark-overlay">
     <%- body %>
 
-
-
-    <!--
-        Client-side Templates
-        ========================
-
-        HTML templates are important prerequisites of modern, rich client applications.
-        To work their magic, frameworks like React, Vue.js, Angular, Ember, and Backbone
-        require that you load these templates client-side.
-
-        By default, your Gruntfile is configured to automatically load and precompile
-        client-side JST templates in your `assets/templates` folder, then
-        include them here automatically (between TEMPLATES and TEMPLATES END).
-
-        To customize this behavior to fit your needs, just edit `tasks/pipeline.js`.
-        For example, here are a few things you could do:
-
-            + Import templates from other directories
-            + Use a different view engine (handlebars, dust, pug/jade, etc.)
-            + Internationalize your client-side templates using a server-side
-              stringfile before they're served.
-    -->
-
-    <!--TEMPLATES-->
-    <!--TEMPLATES END-->
-
-
-    <!--
-        Server-side View Locals
-        ========================
-
-        Sometimes, it's convenient to get access to your server-side view locals from
-        client-side JavaScript.  This can improve page load times, remove the need for
-        extra AJAX requests, and make your client-side code easier to understand and
-        to maintain.  Sails provides a simple mechanism for accessing dynamic view
-        locals: the "exposeLocalsToBrowser()" view partial.
-
-        For more information on using this built-in feature, see:
-        https://sailsjs.com/docs/concepts/views/locals#?escaping-untrusted-data-using-exposelocalstobrowser
-
-    -->
-
-
-    <!--
-
-      Client-side Javascript
-      ========================
-
-      You can always bring in JS files manually with `script` tags, or asynchronously
-      on the client using a solution like AMD (RequireJS).  Or, if you like, you can
-      take advantage of Sails' conventional asset pipeline (boilerplate Gruntfile).
-
-      By default, files in your `assets/js` folder are included here
-      automatically (between SCRIPTS and SCRIPTS END).  Both JavaScript (.js) and
-      CoffeeScript (.coffee) are supported. In production, your scripts will be minified
-      and concatenated into a single file.
-
-      To customize any part of the built-in behavior, just edit `tasks/pipeline.js`.
-      For example, here are a few things you could do:
-
-          + Change the order of your scripts
-          + Import scripts from other directories
-          + Use a different preprocessor, like TypeScript
-
-    -->
-
-    <!--SCRIPTS-->
-    <!--SCRIPTS END-->
   </body>
 </html>
