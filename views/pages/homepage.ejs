@@ -170,6 +170,7 @@ For more information, see:
                           <div class="col-lg-3 col-md-4 form-group">
                               <h5 class="mb-3"><i class="fa fa-arrows-alt text-muted mr-2"></i>Ngày đến - Ngày đi</h5>
                               <!-- <div class="form-inline"> -->
+                                  <!-- <input type="text" class="form-control form-control-long" placeholder="Đến"> -->
                                   <input type="text" class="form-control form-control-long" placeholder="Đến">
                                   <label class="ml-2 mr-2"></label>
                                   <input type="text" class="form-control form-control-long" placeholder="Đi">
@@ -197,6 +198,9 @@ For more information, see:
                           </div>
                           
                           <div class="col-lg-3 form-group">
+                              <h5 class="mb-3"><i class="fa fa-random text-muted mr-2"></i>Loại phòng lưu trú</h5>
+                              <input type="text" class="form-control form-control-long" placeholder="Loại phòng">
+                              <label class="ml-2 mr-2"></label>
                               <button class="btn btn-primary btn-block"><i class="fa fa-search mr-2"></i>Gởi thông tin</button>
                           </div>
                       </div>
@@ -344,7 +348,7 @@ For more information, see:
                           <i class="icon icon-primary ti ti-cup"></i>
                           <div class="feature-content">
                               <h5 class="mb-0">Tiện tích trong phòng</h5>
-                              <p class="text-muted">Wifi/internet. Máy lạnh. Truyền hình cáp. Minibar.</p>
+                              <p class="text-muted">TV màn hình phẳng. Điều hòa không khí. WiFi miễn phí. Chỗ đậu xe riêng miễn phí. Điện thoại. Két an toàn. Bàn làm việc. Máy sấy tóc. Minibar. Cuộc gọi báo thức. Tắm bùn & Spa (có tính phí)</p>
                           </div>
                       </div>
                       <!-- Feature #1 -->
@@ -431,6 +435,7 @@ For more information, see:
                           <button class="btn-play animated visible" data-animation="fadeInUp" data-toggle="video-modal" data-target="#modalVideo" data-video="https://www.youtube.com/embed/AD-D6uSYkqs"></button>
                       </figure>
                   </div>
+                  
                   <div class="col-lg-5 push-lg-1 col-md-6">
                       <h1>Tập đoàn Hải Đăng</h1>
                       <ul class="nav nav-icons" role="tablist">
@@ -450,6 +455,7 @@ For more information, see:
                           </div>
                       </div>
                   </div>
+
               </div>
           </div>
 
@@ -527,7 +533,7 @@ For more information, see:
       <div class="panel-objects-container container dark">
           <h3 class="text-center mb-5">Danh mục dịch vụ: </h3>
           <div class="panel-objects-list row">
-              <div class="col-md-4 col-sm-6">
+              <div class="col-md-3 col-sm-6">
                   <!-- Panel Objects Item -->
                   <div class="panel-objects-item">
                       <a href="/hotel" class="panel-objects-item-image"><img src="img/objects/panel-object01.jpg" alt=""></a>
@@ -542,7 +548,7 @@ For more information, see:
                       </div>
                   </div>
               </div>
-              <div class="col-md-4 col-sm-6">
+              <div class="col-md-3 col-sm-6">
                   <!-- Panel Objects Item -->
                   <div class="panel-objects-item">
                       <a href="/mudbath-spa" class="panel-objects-item-image"><img src="img/objects/panel-object02.jpg" alt=""></a>
@@ -557,7 +563,22 @@ For more information, see:
                       </div>
                   </div>
               </div>
-              <div class="col-md-4 col-sm-6">
+              <div class="col-md-3 col-sm-6">
+                  <!-- Panel Objects Item -->
+                  <div class="panel-objects-item">
+                      <a href="/show" class="panel-objects-item-image"><img src="img/objects/panel-object03.jpg" alt=""></a>
+                      <div class="panel-objects-item-content">
+                          <a href="index.html" class="link-reset">
+                              <!--<h5 class="mb-0">Wedding & Convention</h5>-->
+                              <!--<ul class="list-inline mb-0">-->
+                                  <!--<li class="list-inline-item"><span class="text-muted">Total area:</span> 22m</li>-->
+                                  <!--<li class="list-inline-item"><span class="text-muted">Number of rooms:</span> 32</li>-->
+                              <!--</ul>-->
+                          </a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
                   <!-- Panel Objects Item -->
                   <div class="panel-objects-item">
                       <a href="/show" class="panel-objects-item-image"><img src="img/objects/panel-object03.jpg" alt=""></a>
@@ -692,6 +713,7 @@ For more information, see:
     //     }
     // ];
 // Init carousel
+
 $('.carousel','#content').slick();
 
 $('.slider-main','#content').slick({
