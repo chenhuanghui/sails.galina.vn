@@ -27,6 +27,12 @@ module.exports.routes = {
   '/': {
     view: 'pages/homepage'
   },
+  '/hotel': {
+    view: 'pages/hotel/homepage'
+  },
+  '/hotel/combo': {
+    view: 'pages/hotel/combo'
+  },
 
   /***************************************************************************
   *                                                                          *
